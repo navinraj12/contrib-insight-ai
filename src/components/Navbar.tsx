@@ -37,13 +37,16 @@ export const Navbar = () => {
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
-            <Link to="/features" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+            <Link to="/" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
+              Home
+            </Link>
+            <Link to="/features" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
               Features
             </Link>
-            <Link to="/about" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+            <Link to="/about" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
               About
             </Link>
-            <Link to="/contact" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+            <Link to="/contact" className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors">
               Contact
             </Link>
           </div>
@@ -63,7 +66,7 @@ export const Navbar = () => {
             <Button
               variant="default"
               asChild
-              className="bg-gradient-primary hover:shadow-glow-primary transition-all"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-glow-card transition-all"
             >
               <a href="#" className="hidden sm:inline-flex">
                 Try It Out

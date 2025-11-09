@@ -51,11 +51,13 @@ export default {
       backgroundImage: {
         "gradient-primary": "var(--gradient-primary)",
         "gradient-accent": "var(--gradient-accent)",
-        "gradient-dark": "var(--gradient-dark)",
+        "gradient-subtle": "var(--gradient-subtle)",
+        "gradient-hero": "var(--gradient-hero)",
       },
       boxShadow: {
         "glow-primary": "var(--glow-primary)",
         "glow-accent": "var(--glow-accent)",
+        "glow-card": "var(--glow-card)",
       },
       transitionProperty: {
         smooth: "var(--transition-smooth)",
