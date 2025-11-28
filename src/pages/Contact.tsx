@@ -28,6 +28,14 @@ const Contact = () => {
       github: "jameswilson",
       linkedin: "jameswilson",
       location: "Boston, MA"
+    },
+    {
+      name: "Navin Raj",
+      role: "ML Research Engineer",
+      email: "james.wilson@dissolveai.dev",
+      github: "jameswilson",
+      linkedin: "jameswilson",
+      location: "Boston, MA"
     }
   ];
 
